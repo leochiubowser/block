@@ -1,0 +1,71 @@
+#title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#btn {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: lightskyblue;
+    height: 8%;
+    width: 9%;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#btn:hover {
+    background-color: cadetblue;
+    border: 2px solid cadetblue;
+}
+
+#player {
+    display: none;
+    background-color: red;
+    height: 1cm;
+    width: 1cm;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+}
+
+#hammer {
+    display: none;
+    position: absolute;
+    z-index: 2;
+}
+
+body {
+    user-select: none;
+}
+
+#point {
+    z-index: 5;
+    color: rgb(163, 78, 42);
+}
+
+#div {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 75%;
+    left: 50%;
+}
+
+#btn1 {
+    background-color: red;
+}
+
+#btn2 {
+    background-color: lightgray;
+}
+
+#btn3 {
+    background-color: lightgray;
+}
